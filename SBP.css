@@ -1,0 +1,170 @@
+/*--- fonts style ---*/
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.display-4 {
+    font-family: 'Oswald', sans-serif !important;
+    text-shadow: 2px 2px black;
+    color: white;
+    padding-right: 100px;
+}
+
+p {
+    text-decoration: solid;
+}
+
+h2 {
+    color: deeppink;
+    text-shadow: 2px 2px black;
+}
+
+.welcome hr {
+    border-top: 3px solid #b4b4b4;
+    width: 90%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    margin-left: .8rem;
+}
+
+/*--- body ---*/
+body {
+    background-image: url('https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 15px;
+}
+
+/*--- Fix for the HOME button + align response in center ----*/
+.nav-link {
+     display: unset;
+     padding-top: 20px;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+.navbar-nav{
+    align-items: center;
+}
+
+/*--- Carousel size regulation ---*/
+.carousel {
+    width: 1300px;
+  } 
+
+  .carousel-inner img {
+    margin: auto;
+  }
+
+.w-100 {
+    width: 100% !important;
+    height: 870px;
+  }
+
+/*--- Buttons section ---*/
+.btn-primary {
+    background-color: hsl(2, 42%, 49%);
+    border: 1px solid hsl(2, 42%, 49%);
+}
+
+.btn-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+
+/*--- Carousels inner - up text ---*/  
+.carousel-caption h4 {
+    color: wheat;
+    padding-bottom: 550px;
+    font-weight: bold;
+    text-shadow: 4px 4px red;
+}  
+
+/*--- Carousels inner - down text ---*/
+.carousel-caption h3 {
+    color: red;
+    padding-bottom: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+} 
+
+/*--- Sophia + img manipulation ---*/ 
+.img-fuild {
+    border-style: ridge;
+	right: 300px;
+}
+
+.row {
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+
+/*--- card manipulation ---*/
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.fixed-wrap {
+    background-image: url(img/slide4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+/*--- Footer ---*/
+
+.social a {
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #c41b61;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}

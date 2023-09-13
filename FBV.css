@@ -1,0 +1,31 @@
+/*-- Text --*/
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-shadow: 4px 4px gainsboro;
+}
+.my-4 {
+    width: 75%;
+}
+
+/*-- Wrapper --*/
+.wrapper .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-- Images --*/
+.single-img{
+    padding: 20px 20px 20px 20px;
+}
+
+img:hover{
+    border: 1px solid #563d7c;
+    opacity: .7;
+    transition: .9s;
+}
+

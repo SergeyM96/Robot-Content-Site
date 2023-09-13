@@ -1,0 +1,49 @@
+
+/*-- Apply to all  --*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-- The body --*/
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #fafafa;
+}
+/*-- Img manipulation --*/
+.img-box {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+}
+/*-- Img background --*/
+.row .img-box {
+    position: relative;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+.row .img-box:nth-child(7n+1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.row .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.row .img-box:hover img {
+    transform: scale(1.1);
+}
+
